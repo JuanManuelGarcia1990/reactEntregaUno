@@ -1,5 +1,7 @@
+import './CartWidget.css'
+
 export default function CartWidget () {
     return (
-        <img>🛒1</img>
+        <div className="Cart">🛒1</div>
     )
 }

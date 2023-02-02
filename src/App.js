@@ -1,9 +1,7 @@
 import logo from "./components/Assets/logo/logo.png";
 import "./App.css";
-import Main from "./components/Main/Main";
 import NavBar from "./components/NavBar/NavBar";
-
-
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
   return (
@@ -12,7 +10,9 @@ function App() {
         <img src={logo} className="logo" alt="logo" />
         <NavBar />
       </header>
-      <Main />
+      <main>
+        <ItemListContainer greeting="Chili Peppers World" />
+      </main>
     </div>
   );
 }

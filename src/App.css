@@ -1,8 +1,19 @@
 * {
-margin: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
+.App {
+  margin: 0;
+  padding: 0;
+}
 .header {
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #201e1f;
+}
+main {
+  background-color: red;
+  min-height: 70vh;
 }

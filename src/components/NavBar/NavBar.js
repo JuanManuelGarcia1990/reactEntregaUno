@@ -1,16 +1,16 @@
 import ListItems from "./ListItems/ListItems";
 import CartWidget from "./CartWidget/CartWidget";
-
+import './NavBar.css'
 
 export default function NavBar() {
   return (
     <nav>
-      <ul>
+      <ul className="list">
         <ListItems nombre="INICIO" />
-        <ListItems nombre="COMPRAR" />
-        <ListItems nombre="QUIENES SOMOS" />
+        <ListItems nombre="TIENDA" />
+        <ListItems nombre="TOUR" />
+        <CartWidget />
       </ul>
-      <CartWidget />
     </nav>
   );
 }
