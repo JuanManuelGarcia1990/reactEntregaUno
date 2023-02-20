@@ -26,7 +26,7 @@ export default function NavBar() {
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? "active" : "inactive")}
-            to="/category/gorras"
+            to="/category/Gorras"
           >
             Gorras
           </NavLink>
@@ -35,7 +35,7 @@ export default function NavBar() {
         <li>
           <NavLink
             className={({ isActive }) => (isActive ? "active" : "inactive")}
-            to="/category/otros"
+            to="/category/Otros"
           >
             Otros
           </NavLink>

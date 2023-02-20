@@ -1,7 +1,14 @@
 .itemList {
+    padding: 25px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
+    width: 100%;
+}
+
+.itemList a {
+    text-decoration: none;
+    color: black;
 }
