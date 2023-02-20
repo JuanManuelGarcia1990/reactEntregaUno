@@ -5,10 +5,14 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-evenly;
-    width: 100%;
 }
 
 .itemList a {
     text-decoration: none;
-    color: black;
+    color: #ec3237;
+}
+
+.card {
+    width: 25%;
+    padding-inline: 10px;
 }
